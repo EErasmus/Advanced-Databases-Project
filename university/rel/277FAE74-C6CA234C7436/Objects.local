@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="262C0B12-3698-251C-A021-649A84D24A6D" name="address" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="277FAE74-DD4B-6064-5F09-C6CA234C7436" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C5200E45-76D7-E40E-81B8-521BA7C9C7EA" name="college" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="277FAE74-DD4B-6064-5F09-C6CA234C7436" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="12ADB06C-290E-7F37-8EFC-8BA95CC3A9A6" name="course" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="277FAE74-DD4B-6064-5F09-C6CA234C7436" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D0725EA7-766E-D194-2DF5-55BAF578183F" name="grades" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="277FAE74-DD4B-6064-5F09-C6CA234C7436" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="B778858B-0264-3F71-BAC2-6E9E1A802A9B" name="person" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="277FAE74-DD4B-6064-5F09-C6CA234C7436" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D342F455-0791-8677-B1CF-25D4AB1249D7" name="role" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="277FAE74-DD4B-6064-5F09-C6CA234C7436" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C7C4908A-CB24-0732-5DD9-3B39899873E4" name="university" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="277FAE74-DD4B-6064-5F09-C6CA234C7436" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

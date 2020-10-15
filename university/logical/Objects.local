@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="896C3EC0-5FD3-F1A2-6FCD-16AAAB158D9B" name="address" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A482C667-FF86-5A5E-5DA9-98C71F8B545A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D4A56FBF-7AD6-FBB6-E404-EA44460999E7" name="college" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A482C667-FF86-5A5E-5DA9-98C71F8B545A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="26B86FA8-F9AD-ED2B-7E05-05095D4F456F" name="course" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A482C667-FF86-5A5E-5DA9-98C71F8B545A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F417FC8C-958D-D88E-E39F-65E171E3E7CF" name="grades" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A482C667-FF86-5A5E-5DA9-98C71F8B545A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F9E51264-3325-9F58-6790-37617CC0C744" name="person" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A482C667-FF86-5A5E-5DA9-98C71F8B545A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="76C17055-634C-1D0F-83E7-241857D7BE5A" name="role" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A482C667-FF86-5A5E-5DA9-98C71F8B545A" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D8C19C21-AF90-4D11-178F-77D60DE96A78" name="university" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="A482C667-FF86-5A5E-5DA9-98C71F8B545A" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

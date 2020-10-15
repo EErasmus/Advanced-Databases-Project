@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0725EA7-766E-D194-2DF5-55BAF578183F" name="grades">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-15 08:43:05 UTC</createdTime>
+<generatorID>F417FC8C-958D-D88E-E39F-65E171E3E7CF</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="min" id="C28348B5-4B11-27E3-86AF-1E07C114CD9C">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-15 08:43:05 UTC</createdTime>
+<generatorID>7548AD02-87C0-0377-79D2-228885C3DFF9</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max" id="1CBBAC07-8155-C344-AB74-1FA9CFBCC1FE">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-15 08:43:05 UTC</createdTime>
+<generatorID>E2A08582-E89F-8CFA-7AD7-ADE0263AD948</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="received_mark" id="9BD6DD28-AFF9-E246-E410-05B1EF5C8222">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-15 08:43:05 UTC</createdTime>
+<generatorID>F75A1E8F-84C1-938F-A80D-DC10DDFA4FA1</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="representation" id="8A09DA9C-E928-2105-4950-CC24E4627BC9">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-15 08:43:05 UTC</createdTime>
+<generatorID>8F6640C2-0CCD-0BCB-1B2F-D0B3313D37DC</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passing_grade" id="EBBE3B9C-A0CF-D1C1-F448-700B31683108">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-15 08:43:05 UTC</createdTime>
+<generatorID>D890AD30-C0DB-E73A-7255-17241B9E29EA</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D342F455-0791-8677-B1CF-25D4AB1249D7" name="role">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>76C17055-634C-1D0F-83E7-241857D7BE5A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rolename" id="5E100FC9-FBE7-0351-2B4F-346FCC5CC986">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>DC9F82A7-F718-FB11-6493-FEA4E424D676</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role_level" id="07B2D101-17D1-99CD-7921-8D0F7169594C">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>0567DF41-AA38-0A6F-D439-4DD10696FFEE</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="privileged" id="AECABB15-E3C5-4F30-BD9A-ED42BBE80D0B">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>F7A658AC-D1B5-3315-2AAC-207E308F881D</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role_type" id="860DADCE-64A3-FB37-A33D-F7A2055FAB54">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>413AEB92-CA20-5F21-EBFD-00B3AEDD2EAC</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="new_role" id="1B2F94FB-5AB8-8D9A-2A97-1A13B47C3CAF">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>3D0973BF-7570-78A0-C0A5-D2236145586F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

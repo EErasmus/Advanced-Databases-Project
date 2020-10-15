@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7C4908A-CB24-0732-5DD9-3B39899873E4" name="university">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>D8C19C21-AF90-4D11-178F-77D60DE96A78</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="8DE677B9-C38D-03A6-17BE-119CFB391ECF">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>57746A70-A5DF-8A52-5700-AAD17542986A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="C89CBC91-030C-C3CF-D217-AB3458BD2F91">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>42867135-0966-F3C8-6966-C4282BC79514</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year_founded" id="6B289E38-E3F3-53FA-F80E-6360BA2D5855">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>A9D7BBAF-2638-9905-9368-EA25FA2CE605</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="public" id="B5491264-06AA-43A7-8891-16C4540C2BF7">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>C456EAFB-4AFD-03C6-7D1E-66D97B7A3EFD</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tuition" id="255D3763-D2B5-6233-3091-8BDE670D2F4B">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 21:05:38 UTC</createdTime>
+<generatorID>37A78183-DCA7-AFD2-F827-D482584E59C6</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

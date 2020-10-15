@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A482C667-FF86-5A5E-5DA9-98C71F8B545A" mainViewID="5C4DF3FB-3128-CF83-C613-D9553E78E21E">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-14 18:44:14 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
