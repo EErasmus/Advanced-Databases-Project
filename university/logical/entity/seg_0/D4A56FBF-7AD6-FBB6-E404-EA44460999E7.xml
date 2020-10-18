@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4A56FBF-7AD6-FBB6-E404-EA44460999E7" name="college">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4A56FBF-7AD6-FBB6-E404-EA44460999E7" name="faculty">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-14 19:41:54 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="faculty_id" id="F0B35CCA-4310-D5B3-75D1-06A589CCF44F">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 09:49:21 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="name" id="10CD644C-8803-9429-F926-FE9A88A2A04F">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-14 20:48:47 UTC</createdTime>
@@ -82,5 +94,35 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="university_id" id="C24E98B9-1D8A-1C64-EE96-263F0C86B23F">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:19:41 UTC</createdTime>
+<generatorID>4FB2EFAB-B0A5-A312-0C49-47BC53D88EED</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6236306A-D3B2-4308-D296-BBB4BF11DE8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D141A92F-32FA-37ED-357B-E88BD74D68BB" name="faculty_key">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 09:49:52 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>F0B35CCA-4310-D5B3-75D1-06A589CCF44F</newElementsIDs>
+<usedAttributes>
+<attributeRef>F0B35CCA-4310-D5B3-75D1-06A589CCF44F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -15,6 +15,32 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address_id" id="40F76E2C-F3E3-FB94-EF04-869E15E8C2D8">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 09:51:28 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="F5CF4ED3-6692-7854-A6F2-0E825B926681">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 09:27:08 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="addr1" id="191FB7C5-672A-CA43-A0D8-CE908952283F">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-14 20:56:55 UTC</createdTime>
@@ -93,5 +119,33 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="eff_date" id="A0AFCDFF-0BA8-E5BC-64EB-0104435FF57B">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:27:36 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04751EEB-EFF8-5B32-B113-7B48FCCBC861" name="address_key">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:30:21 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<newElementsIDs>40F76E2C-F3E3-FB94-EF04-869E15E8C2D8,A0AFCDFF-0BA8-E5BC-64EB-0104435FF57B</newElementsIDs>
+<usedAttributes>
+<attributeRef>40F76E2C-F3E3-FB94-EF04-869E15E8C2D8</attributeRef>
+<attributeRef>A0AFCDFF-0BA8-E5BC-64EB-0104435FF57B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
