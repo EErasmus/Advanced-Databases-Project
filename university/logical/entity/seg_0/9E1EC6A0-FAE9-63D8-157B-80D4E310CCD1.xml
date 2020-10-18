@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76C17055-634C-1D0F-83E7-241857D7BE5A" name="role">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E1EC6A0-FAE9-63D8-157B-80D4E310CCD1" name="meeting">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-14 19:40:42 UTC</createdTime>
+<createdTime>2020-10-18 09:21:24 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
@@ -15,22 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="rolename" id="DC9F82A7-F718-FB11-6493-FEA4E424D676">
+<Attribute name="meeting_id" id="586C864A-F873-5F72-3919-A430F2672675">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:21:45 UTC</createdTime>
-<ownerDesignName>university</ownerDesignName>
-<engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="role_level" id="0567DF41-AA38-0A6F-D439-4DD10696FFEE">
-<createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:22:07 UTC</createdTime>
+<createdTime>2020-10-18 10:17:47 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
@@ -41,9 +28,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="privileged" id="F7A658AC-D1B5-3315-2AAC-207E308F881D">
+<Attribute name="meeting_time" id="77D44C80-6A37-370D-C531-052F5B4F50C6">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:22:59 UTC</createdTime>
+<createdTime>2020-10-18 09:21:38 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
@@ -51,25 +38,39 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="role_type" id="413AEB92-CA20-5F21-EBFD-00B3AEDD2EAC">
+<Attribute name="duration_minutes" id="DBE649F3-77ED-3A5E-8272-E5758F6D5A94">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:23:47 UTC</createdTime>
+<createdTime>2020-10-18 09:21:46 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meeting_type" id="9E21DA3F-3454-64F3-435B-A1775FA9B464">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:12:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[in person, remote, in person and remote]]></commentInRDBMS>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="new_role" id="3D0973BF-7570-78A0-C0A5-D2236145586F">
+<Attribute name="priority" id="8E39784F-80DB-7AB1-91AB-DD9D2D8CACC1">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:27:13 UTC</createdTime>
+<createdTime>2020-10-18 10:13:23 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
@@ -77,38 +78,49 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="person_id" id="7AA26C39-FE92-21FA-FD0C-DB84A2679512">
+<Attribute name="notes" id="2BA1B9B5-0306-3BD9-3075-CCA944C891BD">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-18 10:24:00 UTC</createdTime>
-<generatorID>BC768801-15FE-25B5-B7F2-B21700B2A49D</generatorID>
+<createdTime>2020-10-18 10:13:42 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>ADA9C53B-5D30-0DAD-61F1-24D1BF2A509B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_note" id="B650B2BC-F70A-D387-0557-01135BDD00AB">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:14:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[room number, zoom url, etc]]></commentInRDBMS>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="29DB4444-3EED-1577-EA3F-1FE5190CF91A" name="role_key">
+<identifier id="4E45E629-4883-F57F-58C1-6CC24183AE5E" name="meeting_key">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-18 09:36:00 UTC</createdTime>
+<createdTime>2020-10-18 10:18:14 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>413AEB92-CA20-5F21-EBFD-00B3AEDD2EAC</newElementsIDs>
+<newElementsIDs>586C864A-F873-5F72-3919-A430F2672675</newElementsIDs>
 <usedAttributes>
-<attributeRef>413AEB92-CA20-5F21-EBFD-00B3AEDD2EAC</attributeRef>
+<attributeRef>586C864A-F873-5F72-3919-A430F2672675</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

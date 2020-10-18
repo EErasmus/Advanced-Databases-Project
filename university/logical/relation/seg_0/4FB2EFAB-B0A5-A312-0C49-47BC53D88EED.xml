@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="university_faculty" directorySegmentName="seg_0" id="4FB2EFAB-B0A5-A312-0C49-47BC53D88EED">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:19:41 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<sourcePk>58FD48C1-C2B1-ABC3-B5A0-E587AE052C11</sourcePk>
+<targetPk>D141A92F-32FA-37ED-357B-E88BD74D68BB</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D8C19C21-AF90-4D11-178F-77D60DE96A78</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4A56FBF-7AD6-FBB6-E404-EA44460999E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

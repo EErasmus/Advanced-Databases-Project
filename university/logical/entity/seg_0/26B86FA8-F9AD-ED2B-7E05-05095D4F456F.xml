@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="course_id" id="52E6A113-4E28-963A-F342-4629EDD8D476">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:08:06 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="course_title" id="0886F6CF-B702-C345-9469-8330EBC9DCF4">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-14 20:31:38 UTC</createdTime>
@@ -22,7 +34,6 @@
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -35,36 +46,9 @@
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="meeting_day_1" id="0AA98C91-A5F2-E781-1443-CDA3EBA989E0">
-<createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:32:39 UTC</createdTime>
-<ownerDesignName>university</ownerDesignName>
-<engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="meeting_time" id="1EA454EC-89E5-857E-DDC8-F76D09BFD6A3">
-<createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:33:43 UTC</createdTime>
-<ownerDesignName>university</ownerDesignName>
-<engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT033</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="credits" id="8F4289B1-5441-CDE2-EB74-2D7F39C8A393">
@@ -80,5 +64,32 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="course_level" id="40813EED-5846-B8C1-3299-797888E8A2C0">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 09:41:15 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7AD3FC41-687C-2AC8-D59C-1CD5B7138C4E" name="course_key">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 10:10:30 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>52E6A113-4E28-963A-F342-4629EDD8D476</newElementsIDs>
+<usedAttributes>
+<attributeRef>52E6A113-4E28-963A-F342-4629EDD8D476</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

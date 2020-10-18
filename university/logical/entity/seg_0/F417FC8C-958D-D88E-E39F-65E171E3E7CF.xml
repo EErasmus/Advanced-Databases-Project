@@ -15,6 +15,19 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="grades_id" id="B889A8F2-4E76-5412-7234-41E2072C925C">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 09:53:27 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="min" id="7548AD02-87C0-0377-79D2-228885C3DFF9">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-15 08:35:50 UTC</createdTime>
@@ -81,4 +94,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="397C10BC-601A-6492-E95A-67A89869ACB5" name="grades_key">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-18 09:53:50 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B889A8F2-4E76-5412-7234-41E2072C925C</newElementsIDs>
+</identifier>
+</identifiers>
 </Entity>
