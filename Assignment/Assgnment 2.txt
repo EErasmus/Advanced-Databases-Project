@@ -1,0 +1,29 @@
+oracle sql developer data model
+
+Q1. No of Students in each course for every faculty for every university
+Param: No Parameter
+Result: University, faculty, Course, No_Of_Student, Year....
+Operation: We will first join university, faculty and course based on relationships (inner join on foriegn keys)
+and then  group by University, then faculty and then course and count no of students. Order buy No_Of_Students 
+
+Q2. No of Professors/ Student per age group in a faculty
+Param: faculty name, Category: ProfOrStudent
+Result: faculty, Category, Age, Count
+Operation: Filter by faculty, calculate Age based on Date Of Birth and storing it in CTE, and then group by Age.
+
+Q3. Topper from each course
+
+
+T1. Enrolling a Student:
+Param: University, faculty, Course, Student details (Name, DOB, etc)
+Result: Student is added to student table and is assigned a course.
+Operation: Filter by University, faculty and Course to see the course exists in part. faculty affiliated to part University.
+Student is added and assigned the course.
+
+T2. Yearly increment
+Param: % of increment
+Result: Profs salary gets incremented
+Operation: Get details of all the profs salaries and increment by given %age.
+
+T3. unassign
+T4. give grades
