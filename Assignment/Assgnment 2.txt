@@ -6,24 +6,31 @@ Result: University, faculty, Course, No_Of_Student, Year....
 Operation: We will first join university, faculty and course based on relationships (inner join on foriegn keys)
 and then  group by University, then faculty and then course and count no of students. Order buy No_Of_Students 
 
-Q2. No of Professors/ Student per age group in a faculty
-Param: faculty name, Category: ProfOrStudent
-Result: faculty, Category, Age, Count
-Operation: Filter by faculty, calculate Age based on Date Of Birth and storing it in CTE, and then group by Age.
+Q2. Normalization of course grades for students. 
+Param: Time period (eff_date1, eff_date2)
+Result: University, Faculty, Course, Student, Normalized score
+Operation: use analytical function to get the standard deviation for each student score for each course during a given time period.
 
-Q3. Topper from each course
+Q3. Rank the average student scores for each course within the given university.
+Param: university name.
+Result: faculty, course, rank
+Operation: Filter by university, use analytical function "rank", to rank average student scores.
 
-
-T1. Enrolling a Student:
-Param: University, faculty, Course, Student details (Name, DOB, etc)
+T1. Enrolling a Student at a university:
+Param: University, faculty, Student details (Name, DOB, etc)
 Result: Student is added to student table and is assigned a course.
-Operation: Filter by University, faculty and Course to see the course exists in part. faculty affiliated to part University.
+Operation: Add student using insert function, 
 Student is added and assigned the course.
 
-T2. Yearly increment
-Param: % of increment
-Result: Profs salary gets incremented
-Operation: Get details of all the profs salaries and increment by given %age.
+T2. Purge student role.
+Param: University, time period(start_date)
+Result: Remove rows from the role table
+Operation: Remove role rows where role_level = 1 AND there is no corresponding entry in the course table for the given student on a given date.
 
-T3. unassign
-T4. give grades
+T3. Conditional Annual appraisal.
+Param: University, role, proffesor rank(percentage), minimum faculty size, percent raise.
+Result: % of increment increase per role.
+Operation: Update teacher role using update function.
+
+T4. unassign
+T5. give grades
