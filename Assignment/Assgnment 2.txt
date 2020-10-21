@@ -1,5 +1,3 @@
-oracle sql developer data model
-
 Q1. No of Students in each course for every faculty for every university
 Param: No Parameter
 Result: University, faculty, Course, No_Of_Student, Year....
