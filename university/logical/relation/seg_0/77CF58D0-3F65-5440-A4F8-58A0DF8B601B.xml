@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="person_grades" directorySegmentName="seg_0" id="77CF58D0-3F65-5440-A4F8-58A0DF8B601B">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:31:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<sourcePk>C66F9043-2E53-AFF6-637A-1102BD33DAD4</sourcePk>
+<targetPk>397C10BC-601A-6492-E95A-67A89869ACB5</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F9E51264-3325-9F58-6790-37617CC0C744</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F417FC8C-958D-D88E-E39F-65E171E3E7CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

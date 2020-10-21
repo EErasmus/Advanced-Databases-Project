@@ -68,5 +68,58 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="grades_id" id="926F1C1B-11E0-89B3-BA11-5967B5C670DF">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>B889A8F2-4E76-5412-7234-41E2072C925C</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_person_id1" id="BAD93FFA-3F6B-5FD8-6FDF-CD1A2C16CA0A">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>245291F6-A213-EB49-7C18-02D1FA09DFDD</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F88D719-5FB5-96C0-5244-883C357461F0" referredColumn="59B8534F-4536-1B17-D136-FE1B32AFB4DD"/>
+</associations>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9513BB2E-FB6A-06F7-FB08-8CF3A328456B" name="grades_PK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>397C10BC-601A-6492-E95A-67A89869ACB5</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="926F1C1B-11E0-89B3-BA11-5967B5C670DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A723F7B1-6B29-C672-52DA-7DA861AD3E47" name="grades_person_FK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>77CF58D0-3F65-5440-A4F8-58A0DF8B601B</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAD93FFA-3F6B-5FD8-6FDF-CD1A2C16CA0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_13" directorySegmentName="seg_0" id="1E95D777-E57E-74A3-BD5E-27665FF022C2">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-21 15:12:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<sourcePk>D141A92F-32FA-37ED-357B-E88BD74D68BB</sourcePk>
+<targetPk>7AD3FC41-687C-2AC8-D59C-1CD5B7138C4E</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D4A56FBF-7AD6-FBB6-E404-EA44460999E7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>26B86FA8-F9AD-ED2B-7E05-05095D4F456F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

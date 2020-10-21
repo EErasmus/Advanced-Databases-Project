@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5200E45-76D7-E40E-81B8-521BA7C9C7EA" name="college">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5200E45-76D7-E40E-81B8-521BA7C9C7EA" name="faculty">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-14 21:05:38 UTC</createdTime>
 <generatorID>D4A56FBF-7AD6-FBB6-E404-EA44460999E7</generatorID>
@@ -70,5 +70,104 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="faculty_id" id="44CBCA18-D5ED-2018-F94E-6D5B39EFC6DB">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>F0B35CCA-4310-D5B3-75D1-06A589CCF44F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="university_university_id" id="FBD63890-EB51-C5D1-A52C-F9BD3492B793">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>C24E98B9-1D8A-1C64-EE96-263F0C86B23F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B533E843-6D31-5B47-A90F-489EEB3667F5" referredColumn="3DC85D79-DB8E-0AE6-FD9C-6B123DE33CDB"/>
+</associations>
+</Column>
+<Column name="address_address_id" id="82E75306-A5A9-DC49-E2FF-A4D4E4B93570">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>939921F0-E277-4AB0-438F-EC326401D67F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_to_faculty_course_to_faculty_ID" id="112596C5-4490-8D0A-3947-7318733650DA">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-20 17:45:24 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EC25245-D22A-2B7B-FE22-218218B97104" name="faculty_PK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>D141A92F-32FA-37ED-357B-E88BD74D68BB</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44CBCA18-D5ED-2018-F94E-6D5B39EFC6DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FA78569-C525-0007-FA32-86F3D5CF74FC" name="faculty__IDX">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>287EED8E-0EB8-0675-52BA-E1C5F37D1EED</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="82E75306-A5A9-DC49-E2FF-A4D4E4B93570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4206B69-C532-BFBF-A0B5-5F3B168054AF" name="faculty__IDX">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-20 17:45:24 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CF51F780-358D-BA7A-C94B-4A2EDBC324B6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="112596C5-4490-8D0A-3947-7318733650DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BE6FB5E-65BE-0405-61A0-07F246FBCF37" name="faculty_university_FK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>4FB2EFAB-B0A5-A312-0C49-47BC53D88EED</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBD63890-EB51-C5D1-A52C-F9BD3492B793"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

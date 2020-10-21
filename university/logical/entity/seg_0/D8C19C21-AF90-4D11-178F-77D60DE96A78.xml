@@ -99,8 +99,9 @@
 <createdBy>testock</createdBy>
 <createdTime>2020-10-18 09:30:50 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>6236306A-D3B2-4308-D296-BBB4BF11DE8D</newElementsIDs>

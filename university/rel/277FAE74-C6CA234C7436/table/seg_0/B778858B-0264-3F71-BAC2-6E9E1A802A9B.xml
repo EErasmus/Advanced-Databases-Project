@@ -129,14 +129,37 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <isSurrogateColumn>true</isSurrogateColumn>
 </Column>
+<Column name="person_id2" id="59B8534F-4536-1B17-D136-FE1B32AFB4DD">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>ADA9C53B-5D30-0DAD-61F1-24D1BF2A509B</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BC8B91C-5C26-83A0-CC9A-E7FD1A0A9736" name="person_PKv2">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>C66F9043-2E53-AFF6-637A-1102BD33DAD4</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B8534F-4536-1B17-D136-FE1B32AFB4DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="42CB9482-1844-3C0C-6F2E-C10E2D793434" name="person_PK">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-14 21:05:38 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
+<indexState>Unique Constraint</indexState>
 <indexColumnUsage>
 <colUsage columnID="3ABC1221-6B3E-8BA6-231F-2D883395DBBC"/>
 </indexColumnUsage>

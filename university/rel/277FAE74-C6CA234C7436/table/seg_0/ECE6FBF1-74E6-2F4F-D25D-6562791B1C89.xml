@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECE6FBF1-74E6-2F4F-D25D-6562791B1C89" name="meeting">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>9E1EC6A0-FAE9-63D8-157B-80D4E310CCD1</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="meeting_id" id="384C3CE0-4CCB-3E2B-4351-9D3D4DCEC6CA">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>586C864A-F873-5F72-3919-A430F2672675</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meeting_time" id="B4F853ED-0403-2FB4-F5A7-8AC236F38566">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>77D44C80-6A37-370D-C531-052F5B4F50C6</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration_minutes" id="5CAEE659-3B98-1405-2870-1A3CC94BB173">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>DBE649F3-77ED-3A5E-8272-E5758F6D5A94</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meeting_type" id="C52A3174-BDB6-5275-4089-B8CF13041FD4">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[in person, remote, in person and remote]]></commentInRDBMS>
+<generatorID>9E21DA3F-3454-64F3-435B-A1775FA9B464</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="priority" id="FF96A29A-6467-161E-E5B1-A3DCBC94BDD1">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>8E39784F-80DB-7AB1-91AB-DD9D2D8CACC1</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notes" id="BC47EEE4-A62A-FB05-B95E-057FD73AF5C8">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>2BA1B9B5-0306-3BD9-3075-CCA944C891BD</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_note" id="69B377F9-5C86-1EBD-B4F2-7DA9D914D15B">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[room number, zoom url, etc]]></commentInRDBMS>
+<generatorID>B650B2BC-F70A-D387-0557-01135BDD00AB</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meeting_day" id="B6E678B4-A30D-478C-E77F-316F1978625E">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>10A7AA13-CBF3-F086-8562-F27D13231FFF</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_course_id" id="A3F122A0-B199-5623-DBDD-432BB63D309B">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>CB287ADA-7BE3-3111-026E-8AC2E7E8AF5E</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89A486AD-950F-1F24-1BB6-CB653B9232C8" referredColumn="A083DE22-5A92-F563-0083-097BE92F0502"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70527796-6341-82B7-10F9-A91A446574EE" name="meeting_PK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>4E45E629-4883-F57F-58C1-6CC24183AE5E</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="384C3CE0-4CCB-3E2B-4351-9D3D4DCEC6CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B61A4457-7E29-0251-74C5-A178A93AE709" name="meeting_course_FK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>6842A1D1-B344-D148-BC5B-4CC9D3A23365</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3F122A0-B199-5623-DBDD-432BB63D309B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

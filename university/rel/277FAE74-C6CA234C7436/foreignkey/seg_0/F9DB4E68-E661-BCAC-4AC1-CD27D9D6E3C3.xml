@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F9DB4E68-E661-BCAC-4AC1-CD27D9D6E3C3" containerWithKeyObject="262C0B12-3698-251C-A021-649A84D24A6D" localFKIndex="44141B8A-E350-9845-2E6C-338B3F90C38C" name="address_university_FK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-20 17:32:41 UTC</createdTime>
+<generatorID>8C977F44-184A-0F9F-03B1-1F1879A092E5</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<referredTableLongName>university</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7C4908A-CB24-0732-5DD9-3B39899873E4</referredTableID>
+<keyObject>E770C398-B1DE-FA77-B4FF-E5F7DC7988E7</keyObject>
+<referredKeyID>E770C398-B1DE-FA77-B4FF-E5F7DC7988E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>university_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

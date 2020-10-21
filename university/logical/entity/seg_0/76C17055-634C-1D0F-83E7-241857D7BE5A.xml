@@ -96,14 +96,57 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="faculty_id" id="D6F7310B-B5B1-091A-D534-AFBC81B998AE">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-20 17:36:04 UTC</createdTime>
+<generatorID>B9C411F1-3621-87FC-E707-78111CC98C9C</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F0B35CCA-4310-D5B3-75D1-06A589CCF44F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="active" id="48C6BA22-39AE-9EE5-A0A7-925451E5FB34">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-21 15:14:16 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eff_date" id="7ECC56AF-5A9B-97F2-5C2E-E0876F6484E5">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-21 15:15:03 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="29DB4444-3EED-1577-EA3F-1FE5190CF91A" name="role_key">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-18 09:36:00 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>413AEB92-CA20-5F21-EBFD-00B3AEDD2EAC</newElementsIDs>

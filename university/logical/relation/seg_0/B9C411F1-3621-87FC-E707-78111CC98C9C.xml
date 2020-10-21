@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="role_faculty" directorySegmentName="seg_0" id="B9C411F1-3621-87FC-E707-78111CC98C9C">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:45:08 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<sourcePk>29DB4444-3EED-1577-EA3F-1FE5190CF91A</sourcePk>
+<targetPk>D141A92F-32FA-37ED-357B-E88BD74D68BB</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>76C17055-634C-1D0F-83E7-241857D7BE5A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D4A56FBF-7AD6-FBB6-E404-EA44460999E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

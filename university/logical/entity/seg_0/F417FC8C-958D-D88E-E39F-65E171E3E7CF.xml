@@ -93,17 +93,36 @@
 <logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="person_id" id="245291F6-A213-EB49-7C18-02D1FA09DFDD">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:31:43 UTC</createdTime>
+<generatorID>77CF58D0-3F65-5440-A4F8-58A0DF8B601B</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ADA9C53B-5D30-0DAD-61F1-24D1BF2A509B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="397C10BC-601A-6492-E95A-67A89869ACB5" name="grades_key">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-18 09:53:50 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>B889A8F2-4E76-5412-7234-41E2072C925C</newElementsIDs>
+<usedAttributes>
+<attributeRef>B889A8F2-4E76-5412-7234-41E2072C925C</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

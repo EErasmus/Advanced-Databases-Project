@@ -76,14 +76,71 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="person_id" id="364D542B-C1FE-DCC7-BC2A-05CADEFFAAF6">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:30:38 UTC</createdTime>
+<generatorID>B0756AF9-FCF3-D2F2-A22B-6CDEA592B780</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ADA9C53B-5D30-0DAD-61F1-24D1BF2A509B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="81D32334-DB60-33BA-CD06-6D3BAA93934A">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 17:49:26 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="939763E4-262A-365E-FC30-98EDF1676A58">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 17:49:39 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="faculty_id" id="73F5CE7F-A1A1-2046-8454-86AC10B7BE36">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-21 15:12:16 UTC</createdTime>
+<generatorID>1E95D777-E57E-74A3-BD5E-27665FF022C2</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F0B35CCA-4310-D5B3-75D1-06A589CCF44F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7AD3FC41-687C-2AC8-D59C-1CD5B7138C4E" name="course_key">
 <createdBy>testock</createdBy>
 <createdTime>2020-10-18 10:10:30 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <newElementsIDs>52E6A113-4E28-963A-F342-4629EDD8D476</newElementsIDs>

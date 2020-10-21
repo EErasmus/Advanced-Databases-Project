@@ -69,5 +69,54 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="university_id" id="3DC85D79-DB8E-0AE6-FD9C-6B123DE33CDB">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>6236306A-D3B2-4308-D296-BBB4BF11DE8D</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_address_id" id="0BA606CD-9489-3706-FA0E-21ECF49B74C6">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>B19D8B98-E256-EA70-D94E-BB6365E14132</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E770C398-B1DE-FA77-B4FF-E5F7DC7988E7" name="university_PK">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<generatorID>58FD48C1-C2B1-ABC3-B5A0-E587AE052C11</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC85D79-DB8E-0AE6-FD9C-6B123DE33CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81648CC1-3A4A-F82F-D15A-090E85A2C3B9" name="university__IDX">
+<createdBy>eraum</createdBy>
+<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8C977F44-184A-0F9F-03B1-1F1879A092E5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0BA606CD-9489-3706-FA0E-21ECF49B74C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>
