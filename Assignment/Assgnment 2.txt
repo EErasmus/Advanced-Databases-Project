@@ -19,7 +19,7 @@ Operation: Filter by university, use analytical function "rank", to rank average
 T1. Enrolling a Student at a university:
 Param: University, faculty, Student details (Name, DOB, etc)
 Result: Student is added to student table and is assigned a course.
-Operation: Add student using insert function, 
+Operation: Add student using insert function,
 Student is added and assigned the course.
 
 T2. Purge student role.
@@ -32,5 +32,9 @@ Param: University, role, proffesor rank(percentage), minimum faculty size, perce
 Result: % of increment increase per role.
 Operation: Update teacher role using update function.
 
-T4. unassign
+T4. Drop course.
+Param: studentid, course name, course date.
+Result: Removal of relationship between student and course.
+Operation: Removal of relationship between student and course, based on the course date.
+
 T5. give grades
