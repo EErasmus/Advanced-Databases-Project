@@ -34,5 +34,3 @@ T4. Drop course.
 Param: studentid, course name, course date.
 Result: Removal of relationship between student and course.
 Operation: Removal of relationship between student and course, based on the course date.
-
-T5. give grades
