@@ -70,7 +70,7 @@ CREATE TABLE faculty (
     professional                            CHAR(1),
     faculty_id                              INTEGER NOT NULL,
     university_university_id                INTEGER,
-    address_address_id                      INTEGER, 
+    address_address_id                      INTEGER 
 --    course_to_faculty_course_to_faculty_id  NUMBER
 );
 
@@ -128,7 +128,7 @@ CREATE TABLE person (
     suffix          VARCHAR2(50),
     title           VARCHAR2(25),
     gender          VARCHAR2(15),
-    person_id       NUMBER NOT NULL,
+    person_id       NUMBER NOT NULL
 --    person_id2      INTEGER
 );
 
