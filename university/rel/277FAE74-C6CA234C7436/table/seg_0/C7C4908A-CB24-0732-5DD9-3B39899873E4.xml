@@ -93,6 +93,22 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="address_address_id1" id="7B5EF969-02FA-420F-76C3-6F4E1316561E">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:30:03 UTC</createdTime>
+<generatorID>863017AA-C52C-55E2-1167-BDD00C9E49B3</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="600DF52B-E528-39C1-75EE-246F8A658DD8" referredColumn="C33D44A0-AC0E-9790-99E3-A017829445D3"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E770C398-B1DE-FA77-B4FF-E5F7DC7988E7" name="university_PK">
@@ -116,6 +132,17 @@
 <relationGeneratorID>8C977F44-184A-0F9F-03B1-1F1879A092E5</relationGeneratorID>
 <indexColumnUsage>
 <colUsage columnID="0BA606CD-9489-3706-FA0E-21ECF49B74C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43BC79CF-A533-D00D-D704-4189E50FF9D3" name="university_address_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:30:03 UTC</createdTime>
+<generatorID>5C60F7C3-EA5A-4060-3BE9-A05775375201</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B5EF969-02FA-420F-76C3-6F4E1316561E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

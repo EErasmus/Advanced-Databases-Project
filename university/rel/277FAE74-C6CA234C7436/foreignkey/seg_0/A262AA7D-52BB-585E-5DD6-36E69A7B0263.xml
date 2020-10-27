@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F41C466-97CE-898F-D97F-809FC53DBCC9" containerWithKeyObject="262C0B12-3698-251C-A021-649A84D24A6D" localFKIndex="CE841071-B681-C04E-6890-77A1F5C075F4" name="address_faculty_FK">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-20 17:32:41 UTC</createdTime>
-<generatorID>287EED8E-0EB8-0675-52BA-E1C5F37D1EED</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A262AA7D-52BB-585E-5DD6-36E69A7B0263" containerWithKeyObject="42B77930-D4AB-EE4F-3B0C-0947079E5433" localFKIndex="BCD65260-A729-BD5E-DAC3-AD355DFD1ED4" name="Relation_6_faculty_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:21:59 UTC</createdTime>
+<generatorID>742A7E2B-3EDD-A683-B907-49D0B9B63FD6</generatorID>
 <ownerDesignName>university</ownerDesignName>
 <referredTableLongName>faculty</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -118,34 +118,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="faculty_id" id="33AF712D-8CD1-9900-8F5F-29DB3A5F3DF0">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-19 16:35:11 UTC</createdTime>
-<generatorID>287EED8E-0EB8-0675-52BA-E1C5F37D1EED</generatorID>
-<ownerDesignName>university</ownerDesignName>
-<engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
-</engineerTo>
-<referedAttribute>F0B35CCA-4310-D5B3-75D1-06A589CCF44F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="university_id" id="5D59B1FA-F75A-F668-772B-CC35AC3754DE">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-19 16:35:29 UTC</createdTime>
-<generatorID>8C977F44-184A-0F9F-03B1-1F1879A092E5</generatorID>
-<ownerDesignName>university</ownerDesignName>
-<engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
-</engineerTo>
-<referedAttribute>6236306A-D3B2-4308-D296-BBB4BF11DE8D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="04751EEB-EFF8-5B32-B113-7B48FCCBC861" name="address_key">

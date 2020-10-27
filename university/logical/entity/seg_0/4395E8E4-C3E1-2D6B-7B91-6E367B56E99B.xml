@@ -43,10 +43,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="address_id" id="A83D79EA-38B2-1529-5590-4DD7B5AC0778">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-19 16:18:34 UTC</createdTime>
-<generatorID>9192600B-3A6F-40F2-9018-714145C5226F</generatorID>
+<Attribute name="address_id" id="0928C0C5-D461-86D8-642D-5167EE15EC24">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:46:13 UTC</createdTime>
+<generatorID>454813A7-FD5B-5756-1E64-61B7275D7EA7</generatorID>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>

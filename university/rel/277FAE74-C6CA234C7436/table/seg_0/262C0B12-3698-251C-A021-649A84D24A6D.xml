@@ -103,36 +103,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="faculty_faculty_id" id="5C160683-5B59-1776-19FE-8FC06229042F">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-19 16:37:36 UTC</createdTime>
-<generatorID>33AF712D-8CD1-9900-8F5F-29DB3A5F3DF0</generatorID>
-<ownerDesignName>university</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="3F41C466-97CE-898F-D97F-809FC53DBCC9" referredColumn="44CBCA18-D5ED-2018-F94E-6D5B39EFC6DB"/>
-</associations>
-</Column>
-<Column name="university_university_id" id="9A88483B-13A9-36DC-6431-7FC6561AA7E9">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-19 16:37:36 UTC</createdTime>
-<generatorID>5D59B1FA-F75A-F668-772B-CC35AC3754DE</generatorID>
-<ownerDesignName>university</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F9DB4E68-E661-BCAC-4AC1-CD27D9D6E3C3" referredColumn="3DC85D79-DB8E-0AE6-FD9C-6B123DE33CDB"/>
-</associations>
-</Column>
 <Column name="person_to_address_person_to_address_ID" id="FD062063-5EE6-4905-AD27-3307929493A8">
 <createdBy>eraum</createdBy>
 <createdTime>2020-10-19 16:37:36 UTC</createdTime>
@@ -177,9 +147,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>287EED8E-0EB8-0675-52BA-E1C5F37D1EED</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="5C160683-5B59-1776-19FE-8FC06229042F"/>
-</indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="BB77FB61-20A6-3CC8-A5FA-66D8ED20594B" name="address__IDXv2">
 <createdBy>eraum</createdBy>
@@ -188,31 +155,6 @@
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>8C977F44-184A-0F9F-03B1-1F1879A092E5</relationGeneratorID>
-<indexColumnUsage>
-<colUsage columnID="9A88483B-13A9-36DC-6431-7FC6561AA7E9"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="CE841071-B681-C04E-6890-77A1F5C075F4" name="address_faculty_FK">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-20 17:32:41 UTC</createdTime>
-<generatorID>287EED8E-0EB8-0675-52BA-E1C5F37D1EED</generatorID>
-<ownerDesignName>university</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5C160683-5B59-1776-19FE-8FC06229042F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="44141B8A-E350-9845-2E6C-338B3F90C38C" name="address_university_FK">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-20 17:32:41 UTC</createdTime>
-<generatorID>8C977F44-184A-0F9F-03B1-1F1879A092E5</generatorID>
-<ownerDesignName>university</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9A88483B-13A9-36DC-6431-7FC6561AA7E9"/>
-</indexColumnUsage>
 </ind_PK_UK>
 </indexes>
 </Table>

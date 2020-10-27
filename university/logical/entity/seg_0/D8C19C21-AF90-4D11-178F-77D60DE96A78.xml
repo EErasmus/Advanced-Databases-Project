@@ -93,6 +93,21 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="address_id" id="863017AA-C52C-55E2-1167-BDD00C9E49B3">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:29:39 UTC</createdTime>
+<generatorID>5C60F7C3-EA5A-4060-3BE9-A05775375201</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>40F76E2C-F3E3-FB94-EF04-869E15E8C2D8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="58FD48C1-C2B1-ABC3-B5A0-E587AE052C11" name="university_key">

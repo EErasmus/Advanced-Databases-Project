@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="40343B86-287F-2F62-9F40-C07E23D7A7CD" containerWithKeyObject="4BAA059B-5D46-E78A-B730-A82E607661A8" localFKIndex="155BFBFB-E461-9DA6-FA35-D1627184A658" name="person_to_address_address_FK">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-20 17:32:41 UTC</createdTime>
-<generatorID>9192600B-3A6F-40F2-9018-714145C5226F</generatorID>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="600DF52B-E528-39C1-75EE-246F8A658DD8" containerWithKeyObject="C7C4908A-CB24-0732-5DD9-3B39899873E4" localFKIndex="43BC79CF-A533-D00D-D704-4189E50FF9D3" name="university_address_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:30:03 UTC</createdTime>
+<generatorID>5C60F7C3-EA5A-4060-3BE9-A05775375201</generatorID>
 <ownerDesignName>university</ownerDesignName>
 <referredTableLongName>address</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>262C0B12-3698-251C-A021-649A84D24A6D</referredTableID>
 <keyObject>ADBD817D-FA3D-6F99-F4AA-906C13B2504C</keyObject>
 <referredKeyID>ADBD817D-FA3D-6F99-F4AA-906C13B2504C</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>address_id</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
