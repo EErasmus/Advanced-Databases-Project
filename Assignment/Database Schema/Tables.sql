@@ -151,18 +151,6 @@ CREATE TABLE person_to_address (
 
 ALTER TABLE person_to_address ADD CONSTRAINT person_to_address_pk PRIMARY KEY ( person_to_address_id );
 
-CREATE TABLE role (
-    rolename             VARCHAR2(100),
-    role_level           INTEGER,
-    privileged           CHAR(1),
-    role_type            VARCHAR2(25)     NOT NULL,
-    new_role             CHAR(1),
-    person_person_id1    INTEGER,
-    faculty_faculty_id   INTEGER,
-    faculty_faculty_id2  INTEGER,
-    active               CHAR(1),
-    eff_date             DATE
-);
 
 --CREATE UNIQUE INDEX role__idx ON
 --    role (
@@ -185,6 +173,27 @@ CREATE TABLE university (
 --    university (
 --        address_address_id
 --    ASC );
+
+CREATE TABLE person_to_courses_test (
+person_id INTEGER NOT NULL,
+course_id INTEGER NOT NULL
+);
+
+ 
+
+    
+CREATE TABLE person_to_role_test (
+person_id INTEGER NOT NULL,
+role_id INTEGER NOT NULL
+);
+
+ 
+
+CREATE TABLE role (
+rolename VARCHAR2(100),
+role_type VARCHAR2(25) NOT NULL,
+role_id INTEGER NOT NULL
+);
 
 ALTER TABLE university ADD CONSTRAINT university_pk PRIMARY KEY ( university_id );
 
