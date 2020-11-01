@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="year_founded" id="4B1C5E05-E0C0-FEC6-CEA0-860C68148CC4">
 <createdBy>testock</createdBy>
@@ -50,8 +51,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="building" id="1DDBBF4A-93D3-5F56-8965-0638978C140C">
 <createdBy>testock</createdBy>
@@ -64,7 +66,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="stem" id="0D79C730-B801-013B-7C8E-9A72B7D8299C">
 <createdBy>testock</createdBy>
@@ -76,9 +79,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="professional" id="DA771596-5276-5C22-7F98-FF5AC83F292E">
 <createdBy>testock</createdBy>
@@ -90,9 +93,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="university_id" id="C24E98B9-1D8A-1C64-EE96-263F0C86B23F">
 <createdBy>testock</createdBy>
@@ -104,6 +107,21 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>6236306A-D3B2-4308-D296-BBB4BF11DE8D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_id" id="5CF6701F-DC5D-0432-05D5-2099CA4F9CBB">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:53:18 UTC</createdTime>
+<generatorID>AB2504AF-2EF1-A102-C518-998BF387640D</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>40F76E2C-F3E3-FB94-EF04-869E15E8C2D8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

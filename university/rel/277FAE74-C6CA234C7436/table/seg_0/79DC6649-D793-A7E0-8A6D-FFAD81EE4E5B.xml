@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79DC6649-D793-A7E0-8A6D-FFAD81EE4E5B" name="faculty">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>D4A56FBF-7AD6-FBB6-E404-EA44460999E7</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="faculty_id" id="C43BF43F-D9D2-6392-5D5F-DAAB10F598EA">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>F0B35CCA-4310-D5B3-75D1-06A589CCF44F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E809A88E-9110-0004-0FCD-CCA1573B1388">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>10CD644C-8803-9429-F926-FE9A88A2A04F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="year_founded" id="FB9BE175-F549-2381-A799-1E07482EC456">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>4B1C5E05-E0C0-FEC6-CEA0-860C68148CC4</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="building" id="5C44332C-0032-39AC-0F25-C3439DCC3A3A">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>1DDBBF4A-93D3-5F56-8965-0638978C140C</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stem" id="562FBDF7-7618-31FC-574D-90072866B593">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>0D79C730-B801-013B-7C8E-9A72B7D8299C</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="professional" id="CDDBF5B3-E1CC-5213-90EB-CEEE492DCC1C">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>DA771596-5276-5C22-7F98-FF5AC83F292E</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="university_university_id" id="83A22200-4AE9-5DEF-3FA4-807BF0257F4D">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>C24E98B9-1D8A-1C64-EE96-263F0C86B23F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12E86302-01B8-2912-12C1-6D3A51D3BDC0" referredColumn="001CE4F2-57A0-90A4-3234-F8A3EF5CAF64"/>
+</associations>
+</Column>
+<Column name="address_address_id" id="9DA23335-4D33-EF2A-8E55-8A0055946D00">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>5CF6701F-DC5D-0432-05D5-2099CA4F9CBB</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7290F87-7C98-950C-F89E-C5A0714F55C7" referredColumn="1125FE80-87A0-3FC1-7E71-161E8B8CBCA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="680DE72A-2A16-636B-CAEE-AA8CB5E18D7A" name="faculty_PK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>D141A92F-32FA-37ED-357B-E88BD74D68BB</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C43BF43F-D9D2-6392-5D5F-DAAB10F598EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FAF732B-D3EA-5CC9-1EA7-FED622388BD6" name="faculty_address_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>AB2504AF-2EF1-A102-C518-998BF387640D</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DA23335-4D33-EF2A-8E55-8A0055946D00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D208205-07A7-C942-5A38-073D571E7F63" name="faculty_university_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 13:16:06 UTC</createdTime>
+<generatorID>4FB2EFAB-B0A5-A312-0C49-47BC53D88EED</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83A22200-4AE9-5DEF-3FA4-807BF0257F4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

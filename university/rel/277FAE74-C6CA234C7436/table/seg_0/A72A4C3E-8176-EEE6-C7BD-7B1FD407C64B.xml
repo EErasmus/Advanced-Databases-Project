@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A72A4C3E-8176-EEE6-C7BD-7B1FD407C64B" name="person_to_address">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:55:34 UTC</createdTime>
+<generatorID>4395E8E4-C3E1-2D6B-7B91-6E367B56E99B</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_eff_date" id="914FA5C8-E196-90A9-89F8-5FBEDE7A39A7">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:55:34 UTC</createdTime>
+<generatorID>75064622-1B11-30D6-64A6-65866AFB51BE</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_person_id" id="2E757FE2-8D59-E7AB-8FAE-60F3914A0A4E">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:55:34 UTC</createdTime>
+<generatorID>EB91B8F8-BB0E-C204-2E29-536B3574829F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1511591-8326-25B2-6871-C7B4440D7F6F" referredColumn="5ACC0B7D-E8B4-0811-4903-59FAFD3F3D41"/>
+</associations>
+</Column>
+<Column name="address_address_id" id="2178D376-E4A4-E7AF-ABC5-D80B0EFE5926">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 19:55:34 UTC</createdTime>
+<generatorID>9923BC30-CE79-D21B-68B3-E5FFC0FF5083</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1282D547-6E4E-83B2-5B75-5EC2FC004586" referredColumn="1125FE80-87A0-3FC1-7E71-161E8B8CBCA0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D88A255-6976-F835-1131-29C17A68A364" name="person_to_address_address_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>454813A7-FD5B-5756-1E64-61B7275D7EA7</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2178D376-E4A4-E7AF-ABC5-D80B0EFE5926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D41BD66-ADE2-7B5E-C8D3-68B01A7EC594" name="person_to_address_person_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-28 10:25:52 UTC</createdTime>
+<generatorID>BF04B332-2869-5B0B-5966-97CA009F3D2A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E757FE2-8D59-E7AB-8FAE-60F3914A0A4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

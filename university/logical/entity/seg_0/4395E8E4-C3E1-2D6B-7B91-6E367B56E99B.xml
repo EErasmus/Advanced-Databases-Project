@@ -43,9 +43,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="address_id" id="0928C0C5-D461-86D8-642D-5167EE15EC24">
+<Attribute name="address_id" id="9923BC30-CE79-D21B-68B3-E5FFC0FF5083">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-27 19:46:13 UTC</createdTime>
+<createdTime>2020-10-27 19:54:36 UTC</createdTime>
 <generatorID>454813A7-FD5B-5756-1E64-61B7275D7EA7</generatorID>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>

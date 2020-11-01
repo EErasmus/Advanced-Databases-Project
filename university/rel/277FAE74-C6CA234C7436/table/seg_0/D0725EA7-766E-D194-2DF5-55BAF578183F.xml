@@ -53,7 +53,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="passing_grade" id="EBBE3B9C-A0CF-D1C1-F448-700B31683108">
@@ -80,7 +81,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="person_person_id1" id="BAD93FFA-3F6B-5FD8-6FDF-CD1A2C16CA0A">
+<Column name="person_person_id" id="BAD93FFA-3F6B-5FD8-6FDF-CD1A2C16CA0A">
 <createdBy>eraum</createdBy>
 <createdTime>2020-10-19 16:37:36 UTC</createdTime>
 <generatorID>245291F6-A213-EB49-7C18-02D1FA09DFDD</generatorID>
@@ -93,7 +94,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2F88D719-5FB5-96C0-5244-883C357461F0" referredColumn="59B8534F-4536-1B17-D136-FE1B32AFB4DD"/>
+<colAssociation fkAssociation="95901724-F3B0-C67B-9899-67F39E979C28" referredColumn="5ACC0B7D-E8B4-0811-4903-59FAFD3F3D41"/>
 </associations>
 </Column>
 </columns>
@@ -110,9 +111,9 @@
 <colUsage columnID="926F1C1B-11E0-89B3-BA11-5967B5C670DF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A723F7B1-6B29-C672-52DA-7DA861AD3E47" name="grades_person_FK">
-<createdBy>eraum</createdBy>
-<createdTime>2020-10-19 16:37:36 UTC</createdTime>
+<ind_PK_UK id="AE9EEACE-E72E-16B1-0E78-63A2F1E498E2" name="grades_person_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-28 10:25:52 UTC</createdTime>
 <generatorID>77CF58D0-3F65-5440-A4F8-58A0DF8B601B</generatorID>
 <ownerDesignName>university</ownerDesignName>
 <indexState>Foreign Key</indexState>

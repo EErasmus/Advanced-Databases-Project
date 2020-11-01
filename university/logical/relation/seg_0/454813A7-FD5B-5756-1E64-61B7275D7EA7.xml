@@ -6,6 +6,8 @@
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
 </engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
 <sourcePk>04751EEB-EFF8-5B32-B113-7B48FCCBC861</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

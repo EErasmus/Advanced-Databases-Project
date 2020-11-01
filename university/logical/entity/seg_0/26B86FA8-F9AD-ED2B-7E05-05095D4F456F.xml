@@ -37,19 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="course_type" id="A952D7DB-D8AA-5531-9028-23396B0E9BB9">
-<createdBy>testock</createdBy>
-<createdTime>2020-10-14 20:31:48 UTC</createdTime>
-<ownerDesignName>university</ownerDesignName>
-<engineerTo>
-<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="credits" id="8F4289B1-5441-CDE2-EB74-2D7F39C8A393">
 <createdBy>testock</createdBy>

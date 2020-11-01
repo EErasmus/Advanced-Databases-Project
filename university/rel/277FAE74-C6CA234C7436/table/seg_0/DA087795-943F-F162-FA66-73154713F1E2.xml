@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA087795-943F-F162-FA66-73154713F1E2" name="role">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>76C17055-634C-1D0F-83E7-241857D7BE5A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rolename" id="D59F77F8-31A4-0325-329E-4ECC61EB4502">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>DC9F82A7-F718-FB11-6493-FEA4E424D676</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role_level" id="D49E5C93-BBAC-CF0A-96CF-7FA92C5775E1">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>0567DF41-AA38-0A6F-D439-4DD10696FFEE</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="privileged" id="91160F3E-8A6A-652E-44E4-6169E87C979D">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>F7A658AC-D1B5-3315-2AAC-207E308F881D</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role_type" id="02675D27-700A-8CAB-FA31-4C054E0ADCEC">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>413AEB92-CA20-5F21-EBFD-00B3AEDD2EAC</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="new_role" id="96B8C9D8-BFE6-34F8-FC84-69F8F90B71EE">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>3D0973BF-7570-78A0-C0A5-D2236145586F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_person_id" id="4560A852-6EA1-79C3-056B-652E6CBD3BD2">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>7AA26C39-FE92-21FA-FD0C-DB84A2679512</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA7D4A5B-5122-358B-EE15-85BB3004E45B" referredColumn="5ACC0B7D-E8B4-0811-4903-59FAFD3F3D41"/>
+</associations>
+</Column>
+<Column name="faculty_faculty_id" id="E01300DF-46C4-EDAF-CB55-1E44FC97815C">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>D6F7310B-B5B1-091A-D534-AFBC81B998AE</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA2C8CC4-42AA-137E-CD6F-2C87429FB896" referredColumn="C43BF43F-D9D2-6392-5D5F-DAAB10F598EA"/>
+</associations>
+</Column>
+<Column name="active" id="5DB1AB84-44AF-F736-3C87-3AEA0E4B8F91">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>48C6BA22-39AE-9EE5-A0A7-925451E5FB34</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eff_date" id="3662A6E2-531C-1837-7AD6-A8B49AC4BB75">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>7ECC56AF-5A9B-97F2-5C2E-E0876F6484E5</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F99AE8C5-79A9-BABD-B800-6404E8739544" name="role_PK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>29DB4444-3EED-1577-EA3F-1FE5190CF91A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02675D27-700A-8CAB-FA31-4C054E0ADCEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7BBE8CF-9E02-396D-53DF-47ABFAE24708" name="role_person_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>BC768801-15FE-25B5-B7F2-B21700B2A49D</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4560A852-6EA1-79C3-056B-652E6CBD3BD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F42FD62-ACE6-2997-2BDE-D4B9CC56CCEA" name="role_faculty_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 15:21:36 UTC</createdTime>
+<generatorID>B9C411F1-3621-87FC-E707-78111CC98C9C</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E01300DF-46C4-EDAF-CB55-1E44FC97815C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

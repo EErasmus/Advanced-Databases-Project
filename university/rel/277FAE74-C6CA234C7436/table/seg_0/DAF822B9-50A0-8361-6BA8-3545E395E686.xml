@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAF822B9-50A0-8361-6BA8-3545E395E686" name="address">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>896C3EC0-5FD3-F1A2-6FCD-16AAAB158D9B</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="1125FE80-87A0-3FC1-7E71-161E8B8CBCA0">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>40F76E2C-F3E3-FB94-EF04-869E15E8C2D8</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E55E2CC4-7F1F-C936-98E6-79CE50896BE4">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>7E321531-5B5A-7B16-1CF0-D6608D543C40</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr1" id="D7F2C4A3-71DB-1AD5-5B37-6F9B1553123E">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>191FB7C5-672A-CA43-A0D8-CE908952283F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr2" id="C520A97F-F762-4F17-810E-F0E476AE1F48">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>1AC7E153-55E6-2B69-D63A-3BEDC1E564F9</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="080048A6-07A1-D830-F026-03DD05FE4B17">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>654FB013-0084-DA91-B91F-BB682350D812</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="EC49057E-632C-A90D-990F-55B4FB03D1DD">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>2F5CA817-1189-3815-4C98-F7C664BEE1F7</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="184DB726-4C4A-B43D-41CA-53905000B6F5">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>8325AD98-5E27-3E23-073F-95B1E2664A03</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="B973D890-DD3E-28B0-CA14-3FB6C6C9E0A0">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>8693193A-3454-40E0-39C2-BEC641E874FA</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alternate_form" id="86CE0F53-AE28-954E-9A32-FCCA90C1DC5E">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>93FC6370-1ECE-4929-A647-D0C0F9FA1103</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30A62369-6237-3A6F-C5A0-B8A48EC98153" name="address_PK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:30:43 UTC</createdTime>
+<generatorID>04751EEB-EFF8-5B32-B113-7B48FCCBC861</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1125FE80-87A0-3FC1-7E71-161E8B8CBCA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

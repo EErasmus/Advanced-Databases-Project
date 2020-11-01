@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="F5CF4ED3-6692-7854-A6F2-0E825B926681">
+<Attribute name="name" id="7E321531-5B5A-7B16-1CF0-D6608D543C40">
 <createdBy>testock</createdBy>
-<createdTime>2020-10-18 09:27:08 UTC</createdTime>
+<createdTime>2020-10-27 20:45:42 UTC</createdTime>
 <ownerDesignName>university</ownerDesignName>
 <engineerTo>
 <item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
@@ -38,7 +38,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="addr1" id="191FB7C5-672A-CA43-A0D8-CE908952283F">
 <createdBy>testock</createdBy>
@@ -51,7 +52,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="addr2" id="1AC7E153-55E6-2B69-D63A-3BEDC1E564F9">
 <createdBy>testock</createdBy>
@@ -64,7 +66,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>80 CHAR</dataTypeSize>
+<ownDataTypeParameters>80 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="postal_code" id="654FB013-0084-DA91-B91F-BB682350D812">
 <createdBy>testock</createdBy>
@@ -77,7 +80,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="city" id="2F5CA817-1189-3815-4C98-F7C664BEE1F7">
 <createdBy>testock</createdBy>
@@ -90,7 +94,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="state" id="8325AD98-5E27-3E23-073F-95B1E2664A03">
 <createdBy>testock</createdBy>
@@ -103,7 +108,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country" id="8693193A-3454-40E0-39C2-BEC641E874FA">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-27 21:19:49 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<engineerTo>
+<item key="277FAE74-DD4B-6064-5F09-C6CA234C7436" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="alternate_form" id="93FC6370-1ECE-4929-A647-D0C0F9FA1103">
 <createdBy>testock</createdBy>
@@ -116,7 +136,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

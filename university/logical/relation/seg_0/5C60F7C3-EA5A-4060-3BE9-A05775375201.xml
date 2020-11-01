@@ -11,7 +11,7 @@
 <targetPk>04751EEB-EFF8-5B32-B113-7B48FCCBC861</targetPk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>D8C19C21-AF90-4D11-178F-77D60DE96A78</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4555AE04-B3C1-C90F-C6FC-FA4CE3E53E7D" name="course">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>26B86FA8-F9AD-ED2B-7E05-05095D4F456F</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="course_id" id="78C8524E-4F2C-7588-F62E-02FDCB81BE3A">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>52E6A113-4E28-963A-F342-4629EDD8D476</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_title" id="0454D917-0BA4-20A8-BE20-E159F6445652">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>0886F6CF-B702-C345-9469-8330EBC9DCF4</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="credits" id="4BAF47CD-6D41-7EBC-91A8-479228774A45">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>8F4289B1-5441-CDE2-EB74-2D7F39C8A393</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_level" id="853856EA-9B4C-51FE-8968-DDDFF1509BA2">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>40813EED-5846-B8C1-3299-797888E8A2C0</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="person_person_id" id="207D0E28-B6E4-22C9-D51D-340FD16732E9">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>364D542B-C1FE-DCC7-BC2A-05CADEFFAAF6</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AD13171-121B-C229-18FB-078784C5AEEE" referredColumn="5ACC0B7D-E8B4-0811-4903-59FAFD3F3D41"/>
+</associations>
+</Column>
+<Column name="start_date" id="A0362E7C-2E0B-6718-375E-9E017A54BA6A">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>81D32334-DB60-33BA-CD06-6D3BAA93934A</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="89488908-D939-D55B-60EA-5544F4BF28ED">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>939763E4-262A-365E-FC30-98EDF1676A58</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faculty_faculty_id" id="9D9AAE9F-8BDD-C060-7F3B-C4293BA66F54">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>73F5CE7F-A1A1-2046-8454-86AC10B7BE36</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5BE45A6-CCCC-FA66-2D83-CFD520029E27" referredColumn="C43BF43F-D9D2-6392-5D5F-DAAB10F598EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="360C094E-94F0-835A-E874-21D008E961D3" name="course_PK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>7AD3FC41-687C-2AC8-D59C-1CD5B7138C4E</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78C8524E-4F2C-7588-F62E-02FDCB81BE3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99204D12-B531-2D4B-34EC-4927F4D7A202" name="course_person_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>B0756AF9-FCF3-D2F2-A22B-6CDEA592B780</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="207D0E28-B6E4-22C9-D51D-340FD16732E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AC5B2B9-04A4-BEFE-ABA2-18E957B36A94" name="course_faculty_FK">
+<createdBy>testock</createdBy>
+<createdTime>2020-10-29 14:43:07 UTC</createdTime>
+<generatorID>1E95D777-E57E-74A3-BD5E-27665FF022C2</generatorID>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D9AAE9F-8BDD-C060-7F3B-C4293BA66F54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
