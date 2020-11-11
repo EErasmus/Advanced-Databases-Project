@@ -12,8 +12,8 @@ insert into person_to_address(address_eff_date, person_id, address_id)
 SELECT
       TO_DATE(
               TRUNC(
-                   DBMS_RANDOM.VALUE(TO_CHAR(DATE '2018-01-01','J')
-                                    ,TO_CHAR(DATE '2020-01-31','J')
+                   DBMS_RANDOM.VALUE(TO_CHAR(DATE '2015-01-01','J')
+                                    ,TO_CHAR(DATE '2018-01-31','J')
                                     )
                     ),'J'
                ),
